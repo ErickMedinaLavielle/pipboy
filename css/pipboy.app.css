@@ -127,14 +127,34 @@ ul > li.navbar-item > a.nav-link {
   opacity: 0.3;
 }
 
+.center-image {
+  position: absolute;
+  margin-left: 100px;
+}
+
 .center-image img {
   margin: auto;
   display: block;
   position: relative;
   max-height: 300px;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-left: -10px;
   filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1)
     contrast(2);
+}
+
+.stat-bar {
+  width: 60px;
+  margin: auto;
+}
+
+#status {
+  max-width: 400px;
+  margin: auto;
+}
+
+.stat-bars > .row {
+  margin-bottom: 100px;
 }
 
 .navbar.navbar-light.pip-footer {
@@ -173,4 +193,28 @@ ul > li.navbar-item > a.nav-link {
   background: #14fe17;
   position: relative;
   width: 70%;
+}
+
+.level-progress-indicator.w10 {
+  width: 10%;
+}
+
+.level-progress-indicator.w20 {
+  width: 20%;
+}
+
+.level-progress-indicator.w30 {
+  width: 30%;
+}
+
+.level-progress-indicator.w40 {
+  width: 40%;
+}
+
+.level-progress-indicator.w50 {
+  width: 50%;
+}
+
+.level-progress-indicator.w60 {
+  width: 60%;
 }
