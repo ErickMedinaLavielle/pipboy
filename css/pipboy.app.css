@@ -1,3 +1,14 @@
+body {
+  color: #14fe17;
+  background-color: #272b23;
+}
+.bg-light {
+  background-color: #272b23 !important;
+}
+
+ul > li.nav-item > a.nav-link {
+  color: #14fe17 !important;
+}
 .center-image img {
   margin: auto;
   display: block;
