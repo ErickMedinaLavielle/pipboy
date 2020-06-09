@@ -9,6 +9,25 @@ body {
   background-color: #272b23;
 }
 
+body::after {
+  height: 100%;
+  width: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  opacity: 0.7;
+  z-index: 1000000;
+  pointer-events: none;
+}
+
 .navbar {
   border-bottom: 2px solid;
   margin: 0 10px;
