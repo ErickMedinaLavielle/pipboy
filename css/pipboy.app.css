@@ -1,7 +1,55 @@
+@font-face {
+  font-family: Pipboy;
+  src: url("../monofonto/monofonto.ttf");
+}
+
 body {
+  font-family: Pipboy, sans-serif;
   color: #14fe17;
   background-color: #272b23;
 }
+
+.navbar {
+  border-bottom: 2px solid;
+  margin: 0 10px;
+}
+
+.navbar::before,
+.navbar::after {
+  height: 7px;
+  width: 2px;
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 5000;
+  background-color: #14fe17;
+  bottom: -8px;
+}
+
+.navbar::before {
+  left: 0;
+}
+
+.navbar::after {
+  right: 0;
+}
+
+.navbar-light ul.navbar-nav > li {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.navbar-light .nav-item > .nav-link {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
 .bg-light {
   background-color: #272b23 !important;
 }
