@@ -159,11 +159,13 @@ ul > li.navbar-item > a.nav-link {
 
 .navbar.navbar-light.pip-footer {
   border: none;
+  font-size: 22px;
 }
 
 .navbar.pip-footer .col-3,
 .navbar.pip-footer .col-6 {
   background: rgba(16, 255, 0, 0.15);
+  padding: 5px 10px;
 }
 
 .navbar.pip-footer .col-6 {
